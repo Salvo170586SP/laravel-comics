@@ -36,6 +36,11 @@
             <section id="jumbotron">
                 <div class="series">CURRENT SERIES</div>
             </section>
+            <section id="box-card">
+                <div class="container">
+                    <h2> --- qui ci saranno le card ---</h2>
+                </div>
+            </section>
 
         </main>
 
