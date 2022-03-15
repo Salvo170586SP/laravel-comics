@@ -22,8 +22,24 @@
 #box-card{
     background-color: #1C1C1C;
     padding: 50px 0;
-    height: 200px;
     color: white;
+    .d-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: calc(100% / 6);
+        padding: 0 20px;
+        margin-bottom: 20px;
+        figure{
+            height: 150px;
+            overflow: hidden;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
 }
 
 

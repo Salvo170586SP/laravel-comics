@@ -38,8 +38,21 @@
         </section>
 
         <section id="box-card">
-            <div class="container">
-                <h2> --- qui ci saranno le card ---</h2>
+            <div class="container d-flex">
+                @forelse($cards as $card)
+                <div class="card">
+                    <figure>
+                        <img src="{{ $card['thumb'] }}" alt="">
+                    </figure>
+                    <h3>{{ $card['series'] }}</h3>
+                </div>
+                @empty
+                    <h3>NON CI SONO COMICS DISPONIBILI</h3>
+                @endforelse
+
+
+
+
             </div>
         </section>
 

@@ -26,7 +26,6 @@ header {
   display: flex;
   padding: 10px 0;
   justify-content: space-between;
-  border: 1px solid red;
 }
 header nav {
   display: flex;
@@ -62,8 +61,23 @@ header nav ul li {
 #box-card {
   background-color: #1C1C1C;
   padding: 50px 0;
-  height: 200px;
   color: white;
+}
+#box-card .d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+#box-card .card {
+  width: 16.6666666667%;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+#box-card .card figure {
+  height: 150px;
+  overflow: hidden;
+}
+#box-card .card figure img {
+  max-width: 100%;
 }
 
 #options {
