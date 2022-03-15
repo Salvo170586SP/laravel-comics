@@ -2,10 +2,30 @@ footer{
     .footer-top{
         height: 400px;
         background-image: url('../img/footer-bg.jpg');
+        background-position: center;
+        background-size: cover;
+        color: white;
+        a {
+            color: #797979;
+        }
+        li{
+            margin-bottom: 5px ;
+        }
+        h3{
+            margin: 10px 0;
+        }
+        .menu-site{
+            display: flex;
+            padding: 50px 0;
+            
+            .left-menu{
+                margin-right: 50px;
+            }
+        }
+      
 
-
-        
     }
+
     .footer-bottom{
         height: 100px;
         background-color: #303030;

@@ -66,6 +66,7 @@ header nav ul li {
 #box-card .d-flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 #box-card .card {
   width: 16.6666666667%;
@@ -78,6 +79,11 @@ header nav ul li {
 }
 #box-card .card figure img {
   max-width: 100%;
+}
+#box-card a {
+  background-color: #0282F9;
+  padding: 10px 20px;
+  color: white;
 }
 
 #options {
@@ -106,6 +112,25 @@ header nav ul li {
 footer .footer-top {
   height: 400px;
   background-image: url("../img/footer-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+footer .footer-top a {
+  color: #797979;
+}
+footer .footer-top li {
+  margin-bottom: 5px;
+}
+footer .footer-top h3 {
+  margin: 10px 0;
+}
+footer .footer-top .menu-site {
+  display: flex;
+  padding: 50px 0;
+}
+footer .footer-top .menu-site .left-menu {
+  margin-right: 50px;
 }
 footer .footer-bottom {
   height: 100px;

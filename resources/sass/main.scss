@@ -26,6 +26,7 @@
     .d-flex{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .card{
@@ -40,6 +41,13 @@
             }
         }
     }
+ 
+    a{
+        background-color: #0282F9;
+        padding: 10px 20px;
+        color: white;
+    }
+ 
 }
 
 
