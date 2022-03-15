@@ -4,7 +4,7 @@ footer{
         background-image: url('../img/footer-bg.jpg');
         background-position: center;
         background-size: cover;
-        color: white;
+        color: $white;
         a {
             color: #797979;
         }
@@ -28,7 +28,7 @@ footer{
 
     .footer-bottom{
         height: 100px;
-        background-color: #303030;
+        background-color: $dark-grey;
         padding: 20px 0;
 
         color: $primary;
@@ -39,9 +39,9 @@ footer{
             align-items: center;
         }
         a{
-            color: white;
+            color: $white;
             padding: 20px;
-            border: 1px solid white;
+            border: 1px solid $white;
         }
 
         .social{
