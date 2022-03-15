@@ -34,7 +34,7 @@
 
         <main>
             <section id="jumbotron">
-
+                <div class="series">CURRENT SERIES</div>
             </section>
 
         </main>
