@@ -12,7 +12,7 @@
         color: white;
         font-size: 20px;
         font-weight: bold;
-        background-color: #0282F9 ;
+        background-color: $primary;
         position: absolute;
         left: 400px;
         bottom: -25px;
@@ -44,7 +44,7 @@
     }
  
     a{
-        background-color: #0282F9;
+        background-color: $primary;
         padding: 10px 20px;
         color: white;
     }
@@ -53,7 +53,7 @@
 
 
 #options{
-    background-color: #0282F9;
+    background-color: $primary;
     color: white;
     padding: 20px;
 
