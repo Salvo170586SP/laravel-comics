@@ -37,12 +37,21 @@ header nav ul {
 header nav ul li {
   margin-left: 20px;
 }
+header .search {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+header .search input {
+  border: 0;
+  border-bottom: 2px solid #0282F9;
+}
 
 #jumbotron {
   background-image: url("../img/jumbotron.jpg");
   background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 390px;
   position: relative;
 }
 #jumbotron .series {
@@ -75,6 +84,7 @@ header nav ul li {
 }
 #box-card .card figure {
   height: 150px;
+  margin-bottom: 10px;
   overflow: hidden;
 }
 #box-card .card figure img {

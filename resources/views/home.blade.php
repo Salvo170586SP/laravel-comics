@@ -29,6 +29,9 @@
                     <li><a href="#">SHOP</a></li>
                 </ul>
             </nav>
+            <div class="search">
+                <input type="text" placeholder="Search" >
+            </div>
         </header>
     </div>
 
