@@ -32,21 +32,59 @@
         </header>
     </div>
 
-        <main>
-            <section id="jumbotron">
-                <div class="series">CURRENT SERIES</div>
-            </section>
-            <section id="box-card">
-                <div class="container">
-                    <h2> --- qui ci saranno le card ---</h2>
+    <main>
+        <section id="jumbotron">
+            <div class="series">CURRENT SERIES</div>
+        </section>
+        
+        <section id="box-card">
+            <div class="container">
+                <h2> --- qui ci saranno le card ---</h2>
+            </div>
+        </section>
+
+        <section id="options">
+            <div class="container">
+                <div class="box-options">
+                    <div class="item-icon">
+                        <figure>
+                            <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+                        </figure>
+                        <span>DIGITAL COMICS</span>
+                    </div>
+                    <div class="item-icon">
+                        <figure>
+                            <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="">
+                        </figure>
+                        <span>DC MERCHANDISE</span>
+                    </div>
+                    <div class="item-icon">
+                        <figure>
+                            <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="">
+                        </figure>
+                        <span>SUBSCRIPTIONS</span>
+                    </div>
+                    <div class="item-icon">
+                        <figure>
+                            <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="">
+                        </figure>
+                        <span>COMIC SHOP LOCATOR</span>
+                    </div>
+                    <div class="item-icon">
+                        <figure>
+                            <img src="{{ asset('img/buy-dc-power-visa.svg')}}" alt="">
+                        </figure>
+                        <span>DC POWER VISA</span>
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-        </main>
+    </main>
 
-        <footer>
+    <footer>
 
-        </footer>
+    </footer>
 </body>
 
 </html>

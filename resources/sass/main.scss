@@ -25,3 +25,28 @@
     height: 200px;
     color: white;
 }
+
+
+#options{
+    background-color: #0282F9;
+    color: white;
+    padding: 20px;
+
+    .box-options{
+        display: flex;
+        .item-icon{
+            display: flex;
+            align-items: center;
+            figure{
+                width: 50px;
+                margin: 0 20px ;
+                img{
+                    max-width: 100%;
+                }
+            }
+            span{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

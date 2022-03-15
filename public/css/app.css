@@ -65,3 +65,26 @@ header nav ul li {
   height: 200px;
   color: white;
 }
+
+#options {
+  background-color: #0282F9;
+  color: white;
+  padding: 20px;
+}
+#options .box-options {
+  display: flex;
+}
+#options .box-options .item-icon {
+  display: flex;
+  align-items: center;
+}
+#options .box-options .item-icon figure {
+  width: 50px;
+  margin: 0 20px;
+}
+#options .box-options .item-icon figure img {
+  max-width: 100%;
+}
+#options .box-options .item-icon span {
+  font-size: 0.9rem;
+}
