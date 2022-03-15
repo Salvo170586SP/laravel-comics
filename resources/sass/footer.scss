@@ -1,0 +1,36 @@
+footer{
+    .footer-top{
+        height: 400px;
+        background-image: url('../img/footer-bg.jpg');
+    }
+    .footer-bottom{
+        height: 100px;
+        background-color: #303030;
+        padding: 20px 0;
+
+        color: #0282F9;
+        
+        .d-flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a{
+            color: white;
+            padding: 20px;
+            border: 1px solid white;
+        }
+
+        .social{
+            display: flex;
+            align-items: center;
+            h4{
+                margin-right: 10px;
+            }
+            img{
+                margin-right: 10px ;
+            }
+
+        }
+    }
+}

@@ -88,3 +88,34 @@ header nav ul li {
 #options .box-options .item-icon span {
   font-size: 0.9rem;
 }
+
+footer .footer-top {
+  height: 400px;
+  background-image: url("../img/footer-bg.jpg");
+}
+footer .footer-bottom {
+  height: 100px;
+  background-color: #303030;
+  padding: 20px 0;
+  color: #0282F9;
+}
+footer .footer-bottom .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-bottom a {
+  color: white;
+  padding: 20px;
+  border: 1px solid white;
+}
+footer .footer-bottom .social {
+  display: flex;
+  align-items: center;
+}
+footer .footer-bottom .social h4 {
+  margin-right: 10px;
+}
+footer .footer-bottom .social img {
+  margin-right: 10px;
+}

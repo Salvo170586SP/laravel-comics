@@ -36,7 +36,7 @@
         <section id="jumbotron">
             <div class="series">CURRENT SERIES</div>
         </section>
-        
+
         <section id="box-card">
             <div class="container">
                 <h2> --- qui ci saranno le card ---</h2>
@@ -79,11 +79,29 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer>
+        <div class="footer-top">
+            <div class="container">
 
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container d-flex">
+                 <a href="#">SIGN-UP NOW</a>
+                <div class="social">
+                    <h4>FOLLOW US</h4>
+                    <figure>
+                        <img src="{{ asset('img/footer-facebook.png')}}" alt="">
+                        <img src="{{ asset('img/footer-twitter.png')}}" alt="">
+                        <img src="{{ asset('img/footer-youtube.png')}}" alt="">
+                        <img src="{{ asset('img/footer-pinterest.png')}}" alt="">
+                        <img src="{{ asset('img/footer-periscope.png')}}" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
