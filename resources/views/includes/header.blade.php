@@ -2,7 +2,7 @@
 <div class="container">
         <header>
             <figure>
-                <img src="{{ asset('img/dc-logo.png')}}" alt="logo">
+                <a href="{{ url('/') }}"><img src="{{ asset('img/dc-logo.png')}}" alt="logo"></a>
             </figure>
             <nav>
                 <ul>
