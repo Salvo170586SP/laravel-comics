@@ -16,8 +16,9 @@
         <section id="jumbotron">
         </section>
 
+        <!-- contenuto della lista card -->
         @yield('content')
-
+        
         <section id="options">
             <div class="container">
                 <div class="box-options">

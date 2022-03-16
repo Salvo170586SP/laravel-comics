@@ -168,3 +168,21 @@ footer .footer-bottom .social h4 {
 footer .footer-bottom .social img {
   margin-right: 10px;
 }
+
+#title-card {
+  height: 100px;
+  background-color: #0282F9;
+}
+
+#comic {
+  height: 500px;
+}
+#comic .box-comic {
+  display: flex;
+}
+#comic .box-comic .info-comic {
+  border: 1px solid red;
+}
+#comic .box-comic .img-comic {
+  border: 1px solid red;
+}

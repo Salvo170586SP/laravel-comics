@@ -1,0 +1,22 @@
+#title-card{
+    height: 100px;
+    background-color: $primary;
+
+}
+
+#comic{
+    height: 500px;
+    .box-comic{
+        display: flex;
+
+        .info-comic{
+            border: 1px solid red;
+        }
+        
+        .img-comic{
+            border: 1px solid red;
+        }
+
+    }
+
+}
