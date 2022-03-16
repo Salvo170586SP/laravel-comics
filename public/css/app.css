@@ -165,6 +165,9 @@ footer .footer-bottom .social {
 footer .footer-bottom .social h4 {
   margin-right: 10px;
 }
+footer .footer-bottom .social a {
+  border: 0;
+}
 footer .footer-bottom .social img {
   margin-right: 10px;
 }
