@@ -20,7 +20,9 @@ Route::get('/', function () {
 })->name('home');
 
 
-Route::get('/comic', function () {
+Route::get('/comics/{id}', function ($id) {
 
-    return view('comic');
-})->name('comic');
+    $comics = $comic($id);
+
+    return view('comics');
+})->name('comics');

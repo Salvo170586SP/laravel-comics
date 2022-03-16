@@ -12,13 +12,13 @@
 
             <div class="info-comic">
                 <h2>ACTION COMICS #1000</h2>
-                
+
                 <div class="buy">
-                    <div class="price"> 
+                    <div class="price">
                         <span>U.S Price: <span class="price-item"> $19.99</span></span>
                         <span>Available</span>
                     </div>
-                    <div class="check"> Check Availability</div>                    
+                    <div class="check"> Check Availability</div>
                 </div>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita perferendis, quas earum corrupti animi quae tempore distinctio obcaecati ea odio recusandae placeat, in laboriosam rerum? Inventore rerum sit necessitatibus.
@@ -31,7 +31,7 @@
                 <figure>
                     <img src="{{ asset('img/adv.jpg') }}" alt="img">
                 </figure>
-            </div>        
+            </div>
         </div>
     </div>
 </section>
@@ -66,6 +66,35 @@
             </div>
         </div>
     </div>
+
+    <div class="option-item">
+        <div class="item-icon">
+            <span>DIGITAL COMICS</span>
+            <figure>
+                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+            </figure>
+        </div>
+        <div class="item-icon">
+            <span>SHOP DC</span>
+            <figure>
+                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+            </figure>
+        </div>
+        <div class="item-icon">
+            <span>COMIC SHOP LOCATOR</span>
+            <figure>
+                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+            </figure>
+        </div>
+        <div class="item-icon">
+            <span>SUBSCRIPTIONS</span>
+            <figure>
+                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+            </figure>
+        </div>
+    </div>
 </section>
+
+
 
 @endsection

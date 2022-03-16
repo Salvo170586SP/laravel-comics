@@ -4,10 +4,12 @@
 <section id="box-card">
     <div class="series">CURRENT SERIES</div>
     <div class="container d-flex">
-        @forelse($cards as $card)
+        @forelse($cards as $index => $card)
         <div class="card">
             <figure>
-                <a href=""><img src="{{ $card['thumb'] }}" alt="{{$card['series']}}"></a>
+                <a href="{{ url('/comics/$index')}}">
+                    <img src="{{ $card['thumb'] }}" alt="{{$card['series']}}">
+                </a>
             </figure>
             <h3>{{ $card['series'] }}</h3>
         </div>
