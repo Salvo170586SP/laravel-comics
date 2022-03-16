@@ -170,6 +170,7 @@ footer .footer-bottom .social h4 {
 }
 footer .footer-bottom .social a {
   border: 0;
+  padding: 0 5px;
 }
 footer .footer-bottom .social img {
   margin-right: 10px;
