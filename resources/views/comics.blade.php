@@ -68,25 +68,25 @@
         <div class="item-icon">
             <span>DIGITAL COMICS</span>
             <figure>
-                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="digital">
             </figure>
         </div>
         <div class="item-icon">
             <span>SHOP DC</span>
             <figure>
-                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+                <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="subscr">
             </figure>
         </div>
         <div class="item-icon">
             <span>COMIC SHOP LOCATOR</span>
             <figure>
-                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+                <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="shop">
             </figure>
         </div>
         <div class="item-icon">
             <span>SUBSCRIPTIONS</span>
             <figure>
-                <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+                <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="merchandise">
             </figure>
         </div>
     </div>
