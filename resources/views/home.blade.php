@@ -31,13 +31,13 @@
                     </div>
                     <div class="item-icon">
                         <figure>
-                            <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="">
+                            <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="">
                         </figure>
                         <span>DC MERCHANDISE</span>
                     </div>
                     <div class="item-icon">
                         <figure>
-                            <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="">
+                            <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="">
                         </figure>
                         <span>SUBSCRIPTIONS</span>
                     </div>
