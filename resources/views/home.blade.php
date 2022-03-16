@@ -7,7 +7,10 @@
         @forelse($cards as $index => $card)
         <div class="card">
             <figure>
-                <a href="{{ url("/comics/$index") }}">
+<!--                 <a href="{{ url('/comics')}}@php echo '/'.$index; @endphp ">
+ -->               
+ 
+                <a href="{{ url("/comics/$index")}}">
                     <img src="{{ $card['thumb'] }}" alt="{{$card['series']}}">
                 </a>
             </figure>

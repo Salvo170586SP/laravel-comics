@@ -87,13 +87,16 @@ header .search input {
   margin-bottom: 10px;
   overflow: hidden;
 }
-#box-card .card figure img {
+#box-card .card figure a {
+  padding: 0;
+}
+#box-card .card figure a img {
   max-width: 100%;
 }
 #box-card a {
   background-color: #0282F9;
-  padding: 10px 20px;
   color: white;
+  padding: 10px 20px;
 }
 
 #options {

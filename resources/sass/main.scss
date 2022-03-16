@@ -30,26 +30,36 @@
         left: 400px;
         top: -25px;
     }
+
     .card{
         width: calc(100% / 6);
         padding: 0 20px;
         margin-bottom: 20px;
+
+
         figure{
             height: 150px;
             margin-bottom: 10px;
             overflow: hidden;
-            img{
-                max-width: 100%;
+
+            a{
+                padding: 0;
+                img{
+                    max-width: 100%;
+                }
             }
+            
         }
+
     }
- 
+
     a{
         background-color: $primary;
-        padding: 10px 20px;
         color: $white;
+        padding: 10px 20px;
     }
  
+    
 }
 
 
