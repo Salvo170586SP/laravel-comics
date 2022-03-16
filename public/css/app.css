@@ -175,7 +175,6 @@ footer .footer-bottom .social img {
 }
 
 #comic {
-  height: 500px;
   padding: 80px 0;
 }
 #comic .box-comic {
@@ -218,4 +217,41 @@ footer .footer-bottom .social img {
 #comic .box-comic .img-comic {
   width: 30%;
   text-align: end;
+}
+
+#detail-comic {
+  height: 400px;
+  background-color: #F6F6F6;
+  padding: 30px 0;
+}
+#detail-comic .d-flex {
+  display: flex;
+}
+#detail-comic .talent {
+  border: 1px solid red;
+  width: 50%;
+  padding: 0 25px;
+}
+#detail-comic .talent .talent-item {
+  display: flex;
+  margin-top: 20px;
+}
+#detail-comic .talent .talent-item span {
+  width: 60%;
+}
+#detail-comic .talent .talent-item p {
+  color: #0282F9;
+}
+#detail-comic .specs {
+  width: 50%;
+  padding: 0 25px;
+  border: 1px solid red;
+}
+#detail-comic .specs .specs-item {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+#detail-comic .specs .specs-item span {
+  width: 30%;
 }
