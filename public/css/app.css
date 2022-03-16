@@ -172,6 +172,13 @@ footer .footer-bottom .social img {
 #title-card {
   height: 100px;
   background-color: #0282F9;
+  position: relative;
+}
+#title-card img {
+  border: 1px solid white;
+  position: absolute;
+  left: 240px;
+  bottom: 30px;
 }
 
 #comic {

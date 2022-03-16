@@ -1,6 +1,13 @@
 #title-card {
     height: 100px;
     background-color: $primary;
+    position: relative;
+    img{
+        border: 1px solid $white;
+        position: absolute;
+        left: 240px;
+        bottom: 30px;
+    }
 }
 
 #comic {

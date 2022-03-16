@@ -4,6 +4,7 @@
 @section('content')
 
 <section id="title-card">
+    <img src="{{ $comic['thumb'] }}" alt="{{$comic['title']}}">
 </section>
 
 <section id="comic">

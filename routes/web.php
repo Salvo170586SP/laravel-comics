@@ -26,7 +26,5 @@ Route::get('/comics/{id}', function ($id) {
 
     $comic = $comics[$id];
 
-    dump($comics);
-
     return view('comics', compact('comic'));
 })->name('comics');
