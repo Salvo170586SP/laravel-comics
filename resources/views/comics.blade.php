@@ -39,11 +39,21 @@
                 <h4>Talent</h4>
                 <div class="talent-item">
                     <span>Art by</span>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum officia accusamus id temporibus tempore quia est asperiores vitae odit, consectetur iure. Explicabo dicta, illum id incidunt enim veniam quia sunt?</p>
+                    <p>
+                        @foreach($comic['artists'] as $artist)
+                        <span>
+                            {{$artist}},
+                        </span>
+                        @endforeach
+                    </p>
                 </div>
                 <div class="talent-item">
                     <span>Written by</span>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum officia accusamus id temporibus tempore quia est asperiores vitae odit, consectetur iure. Explicabo dicta, illum id incidunt enim veniam quia sunt?</p>
+                    <p>
+                        @foreach($comic['writers'] as $writer)
+                        <span>{{$writer}}, </span>
+                        @endforeach
+                    </p>
                 </div>
             </div>
             <div class="specs">

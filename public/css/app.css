@@ -249,6 +249,7 @@ footer .footer-bottom .social img {
 }
 #detail-comic .d-flex .talent .talent-item p {
   color: #0282F9;
+  text-align: justify;
 }
 #detail-comic .d-flex .specs {
   width: 50%;
