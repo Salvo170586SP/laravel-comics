@@ -244,7 +244,8 @@ footer .footer-bottom .social img {
   padding: 10px 0;
 }
 #detail-comic .d-flex .talent .talent-item span {
-  width: 60%;
+  width: 100%;
+  font-size: 13px;
 }
 #detail-comic .d-flex .talent .talent-item p {
   color: #0282F9;
@@ -261,6 +262,7 @@ footer .footer-bottom .social img {
 }
 #detail-comic .d-flex .specs .specs-item span {
   width: 30%;
+  font-size: 13px;
 }
 #detail-comic .option-item {
   border-top: 1px solid #E3E3E3;
@@ -271,8 +273,10 @@ footer .footer-bottom .social img {
 #detail-comic .option-item .item-icon {
   display: flex;
   color: #9F9F9F;
-  padding: 0 20px;
+  padding: 10px 20px;
   border: 1px solid #E3E3E3;
+  font-weight: bold;
+  font-size: 13px;
 }
 #detail-comic .option-item .item-icon figure {
   width: 40px;

@@ -72,7 +72,8 @@
                 border-top: 1px solid  #E3E3E3;
                 padding: 10px 0;
                 span {
-                    width: 60%;
+                    width: 100%;
+                    font-size: 13px;
                 }
                 p {
                     color: $primary;
@@ -90,6 +91,7 @@
 
                 span {
                     width: 30%;
+                    font-size: 13px;
                 }
             }
         }
@@ -103,8 +105,11 @@
         .item-icon{
             display: flex;
             color: #9F9F9F;
-            padding: 0 20px;
+            padding: 10px 20px;
             border: 1px solid #E3E3E3;
+            font-weight: bold;
+            font-size: 13px;
+
             figure{
                 width: 40px;
                 margin-left: 80px;
