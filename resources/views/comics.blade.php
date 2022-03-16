@@ -11,20 +11,16 @@
         <div class="box-comic">
 
             <div class="info-comic">
-                <h2>ACTION COMICS #1000</h2>
+                <h2>{{$comic['title']}}</h2>
 
                 <div class="buy">
                     <div class="price">
-                        <span>U.S Price: <span class="price-item"> $19.99</span></span>
+                        <span>U.S Price: <span class="price-item">{{$comic['price']}}</span></span>
                         <span>Available</span>
                     </div>
                     <div class="check"> Check Availability</div>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita perferendis, quas earum corrupti animi quae tempore distinctio obcaecati ea odio recusandae placeat, in laboriosam rerum? Inventore rerum sit necessitatibus.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita perferendis, quas earum corrupti animi quae tempore distinctio obcaecati ea odio recusandae placeat, in laboriosam rerum? Inventore rerum sit necessitatibus.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus expedita perferendis, quas earum corrupti animi quae tempore distinctio obcaecati ea odio recusandae placeat, in laboriosam rerum? Inventore rerum sit necessitatibus.
-                </p>
+                <p>{{$comic['description']}}</p>
             </div>
             <div class="img-comic">
                 <p>ADVERTISEMENT</p>
@@ -53,15 +49,15 @@
                 <h4>Specs</h4>
                 <div class="specs-item">
                     <span>Series: </span>
-                    <p>Action comics</p>
+                    <p>{{$comic['series']}}</p>
                 </div>
                 <div class="specs-item">
                     <span>U.S Price: </span>
-                    <p>$19.99</p>
+                    <p>{{$comic['price']}}</p>
                 </div>
                 <div class="specs-item">
                     <span>On Sale Date: </span>
-                    <p>Oct 02 2018</p>
+                    <p>{{$comic['title']}}</p>
                 </div>
             </div>
         </div>

@@ -22,7 +22,11 @@ Route::get('/', function () {
 
 Route::get('/comics/{id}', function ($id) {
 
-    $comics = $comic($id);
+    $comics = config('comics');
 
-    return view('comics');
+    $comic = $comics[$id];
+
+    dump($comics);
+
+    return view('comics', compact('comic'));
 })->name('comics');
