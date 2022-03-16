@@ -15,7 +15,7 @@
                 
                 <div class="buy">
                     <div class="price"> 
-                        <span>U.S Price:</span>
+                        <span>U.S Price: <span class="price-item"> $19.99</span></span>
                         <span>Available</span>
                     </div>
                     <div class="check"> Check Availability</div>                    

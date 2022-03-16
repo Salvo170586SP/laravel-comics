@@ -182,29 +182,40 @@ footer .footer-bottom .social img {
   display: flex;
 }
 #comic .box-comic .info-comic {
-  border: 1px solid red;
   width: 70%;
+  padding: 0 35px;
+}
+#comic .box-comic .info-comic h2 {
+  margin-bottom: 20px;
+  color: #003F5E;
 }
 #comic .box-comic .info-comic .buy {
   height: 50px;
   background-color: #55BA59;
+  margin-bottom: 20px;
+  border-bottom: 1px solid red;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  color: #BAFD91;
 }
 #comic .box-comic .info-comic .buy .price {
   width: 70%;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: #BAFD91;
+  padding: 10px;
+}
+#comic .box-comic .info-comic .buy .price .price-item {
+  color: white;
 }
 #comic .box-comic .info-comic .buy .check {
-  border: 1px solid red;
+  border-left: 1px solid red;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: center;
+  color: white;
 }
 #comic .box-comic .img-comic {
-  border: 1px solid red;
   width: 30%;
   text-align: end;
 }

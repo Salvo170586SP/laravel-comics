@@ -11,32 +11,44 @@
         display: flex;
 
         .info-comic{
-            border: 1px solid red;
             width: 70%;
+            padding: 0 35px;
 
+            h2{
+                margin-bottom: 20px;
+                color: #003F5E;
+            }
             .buy{
                 height: 50px;
                 background-color: #55BA59;
+                margin-bottom: 20px;
+                border-bottom: 1px solid red;
                 display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 10px;
-                color: #BAFD91;
                 .price {
                     width: 70%;
-                    border: 1px solid red;
                     display: flex;
                     justify-content: space-between;
+                    align-items: center;
+                    color: #BAFD91;
+                    padding: 10px;
+                    .price-item{
+                        color: $white;
+                    }
+
                 }
                 .check{
-                    border: 1px solid red;
+                    border-left: 1px solid red;
+                    display: flex;
+                    align-items: center;
+                    width: 30%;
+                    justify-content: center;
+                    color: $white;
                 }
             }
 
         }
         
         .img-comic{
-            border: 1px solid red;
             width: 30%;
             text-align: end;
         }
