@@ -19,42 +19,7 @@
         <!-- contenuto della lista card -->
         @yield('content')
         
-        <section id="options">
-            <div class="container">
-                <div class="box-options">
-                    <div class="item-icon">
-                        <figure>
-                            <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
-                        </figure>
-                        <span>DIGITAL COMICS</span>
-                    </div>
-                    <div class="item-icon">
-                        <figure>
-                            <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="">
-                        </figure>
-                        <span>DC MERCHANDISE</span>
-                    </div>
-                    <div class="item-icon">
-                        <figure>
-                            <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="">
-                        </figure>
-                        <span>SUBSCRIPTIONS</span>
-                    </div>
-                    <div class="item-icon">
-                        <figure>
-                            <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="">
-                        </figure>
-                        <span>COMIC SHOP LOCATOR</span>
-                    </div>
-                    <div class="item-icon">
-                        <figure>
-                            <img src="{{ asset('img/buy-dc-power-visa.svg')}}" alt="">
-                        </figure>
-                        <span>DC POWER VISA</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
     </main>
 
     @include('includes.footer')
