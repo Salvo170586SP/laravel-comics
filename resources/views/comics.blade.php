@@ -58,7 +58,7 @@
                 </div>
                 <div class="specs-item">
                     <span>On Sale Date: </span>
-                    <p>{{$comic['title']}}</p>
+                    <p>{{$comic['sale_date']}}</p>
                 </div>
             </div>
         </div>
