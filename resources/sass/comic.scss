@@ -6,17 +6,39 @@
 
 #comic{
     height: 500px;
+    padding: 80px 0;
     .box-comic{
         display: flex;
 
         .info-comic{
             border: 1px solid red;
+            width: 70%;
+
+            .buy{
+                height: 50px;
+                background-color: #55BA59;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                color: #BAFD91;
+                .price {
+                    width: 70%;
+                    border: 1px solid red;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .check{
+                    border: 1px solid red;
+                }
+            }
+
         }
         
         .img-comic{
             border: 1px solid red;
+            width: 30%;
+            text-align: end;
         }
-
     }
-
 }

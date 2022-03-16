@@ -176,13 +176,35 @@ footer .footer-bottom .social img {
 
 #comic {
   height: 500px;
+  padding: 80px 0;
 }
 #comic .box-comic {
   display: flex;
 }
 #comic .box-comic .info-comic {
   border: 1px solid red;
+  width: 70%;
+}
+#comic .box-comic .info-comic .buy {
+  height: 50px;
+  background-color: #55BA59;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: #BAFD91;
+}
+#comic .box-comic .info-comic .buy .price {
+  width: 70%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+#comic .box-comic .info-comic .buy .check {
+  border: 1px solid red;
 }
 #comic .box-comic .img-comic {
   border: 1px solid red;
+  width: 30%;
+  text-align: end;
 }
