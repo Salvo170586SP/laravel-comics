@@ -3,8 +3,21 @@
     background-position: top;
     background-size: cover;
     height: 390px;
+
+    
+}
+
+#box-card{
+    background-color: $bg_main;
+    padding: 50px 0;
+    color: $white;
     position: relative;
 
+    .d-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .series{
         width: 200px;
         padding: 15px;
@@ -15,20 +28,8 @@
         background-color: $primary;
         position: absolute;
         left: 400px;
-        bottom: -25px;
+        top: -25px;
     }
-}
-
-#box-card{
-    background-color: $bg_main;
-    padding: 50px 0;
-    color: $white;
-    .d-flex{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     .card{
         width: calc(100% / 6);
         padding: 0 20px;

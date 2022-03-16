@@ -2,11 +2,12 @@
 
 @section('content')
 <section id="box-card">
+    <div class="series">CURRENT SERIES</div>
     <div class="container d-flex">
         @forelse($cards as $card)
         <div class="card">
             <figure>
-                <img src="{{ $card['thumb'] }}" alt="">
+                <a href=""><img src="{{ $card['thumb'] }}" alt="{{$card['series']}}"></a>
             </figure>
             <h3>{{ $card['series'] }}</h3>
         </div>

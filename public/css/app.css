@@ -52,9 +52,20 @@ header .search input {
   background-position: top;
   background-size: cover;
   height: 390px;
+}
+
+#box-card {
+  background-color: #1C1C1C;
+  padding: 50px 0;
+  color: white;
   position: relative;
 }
-#jumbotron .series {
+#box-card .d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#box-card .series {
   width: 200px;
   padding: 15px;
   text-align: center;
@@ -64,18 +75,7 @@ header .search input {
   background-color: #0282F9;
   position: absolute;
   left: 400px;
-  bottom: -25px;
-}
-
-#box-card {
-  background-color: #1C1C1C;
-  padding: 50px 0;
-  color: white;
-}
-#box-card .d-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  top: -25px;
 }
 #box-card .card {
   width: 16.6666666667%;
