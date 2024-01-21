@@ -8,7 +8,7 @@
         <div class="card">
             <figure>
                 <a href="{{ url("/comics/$index")}}">
-                    <img src="{{ $card['thumb'] }}" alt="{{$card['series']}}">
+                    <img src="{{ asset($card['thumb']) }}" alt="{{$card['series']}}">
                 </a>
             </figure>
             <h3>{{ $card['series'] }}</h3>
